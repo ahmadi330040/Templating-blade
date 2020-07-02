@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="card">
+<div class="card" >
       <div class="card-header">
         <h3 class="card-title">DataTable with default features</h3>
       </div>
@@ -440,14 +440,13 @@
       </div>
       <!-- /.card-body -->
     </div>
-Pada halaman data-tables kita membutuhkan asset CSS dan JS dari plugin data-tables. asset Javascript di antaranya datatables dan datatables-bs4 berikut ini script yang dibutuhkan (sesuaikan alamat asset dengan alamat yang ada di dalam project public).
 
 
 
 
 @endsection
 
-<!-- @push('scripts')
+@push('scripts')
 <script src="{{asset('adminlte/plugins/datatables/jquery.dataTables.js')}}"></script>
 <script src="{{asset('adminlte/plugins/datatables-bs4/js/dataTables.bootstrap4.js')}}"></script>
 <script>
@@ -455,4 +454,4 @@ Pada halaman data-tables kita membutuhkan asset CSS dan JS dari plugin data-tabl
     $("#example1").DataTable();
   });
 </script>
-@endpush -->
+@endpush
